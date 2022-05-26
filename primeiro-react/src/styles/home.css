@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+.main {
+    height: 100vh;
+    display: flex;
+}
+
+aside{
+    display: flex;
+    flex: 6;
+    background-color: #835AFD;
+    font-family: 'Roboto Condensed', sans-serif;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+aside h1{
+    color: white;
+    font-size: 50px;
+    margin: 0;
+}
+aside p {
+    color: silver;
+    margin: 0;
+    margin-top: 10px;
+}
+
+section{
+    display: flex;
+    flex: 4;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section button{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #EA4335;
+    color: white;
+    padding: 8px;
+    border: 0px solid;
+    border-radius: 8px;
+    width: 280px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+}
+
+button img {
+    margin-right: 20px;
+}
+
+.or {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: silver;
+    margin-top: 20px;
+}
+
+input {
+    width: 260px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: silver;
+    margin-top: 20px;
+}
+
+.button-join{
+    background-color: #835AFD;
+    padding: 12px;
+    width: 290px;
+}
+
+button:hover{
+    filter: brightness(0.8);
+    transform: scale(1.1);
+}
